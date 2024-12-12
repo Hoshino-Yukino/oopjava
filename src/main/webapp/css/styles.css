@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/oopjava/img/bg.jpg);
+    background-repeat: repeat;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#search_bar{
+    width: 400px;  /* 幅を400pxに設定 */
+    height: 25px;  /* 高さを40pxに設定 */
+    font-size: 20px;  /* フォントサイズを20pxに設定 */
+    padding: 10px;  /* 内側の余白を設定 */
+    box-sizing: border-box;  /* ボックスのサイズを含む */
+}
